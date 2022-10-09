@@ -1,0 +1,6 @@
+{% extends 'layouts/main.html' %}
+{% block content %}
+<h1>Oops ... Unprocessable Entity</h1>
+<p>Something went wrong. The server understands the content type of the request entity, and the syntax of the request entity is correct, but it was unable to process the contained instructions.</p>
+<p><a href="{{url_for('index')}}">Back</a></p>
+{% endblock %}
